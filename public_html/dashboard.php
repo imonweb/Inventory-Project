@@ -28,7 +28,7 @@ if (!isset($_SESSION["userid"])) {
 				  <img class="card-img-top mx-auto" style="width:60%;" src="./images/user.png" alt="Card image cap">
 				  <div class="card-body">
 				    <h4 class="card-title">Profile Info</h4>
-				    <p class="card-text"><i class="fa fa-user">&nbsp;</i>Rizwan Khan</p>
+				    <p class="card-text"><i class="fa fa-user">&nbsp;</i>Imon Dela Rosa</p>
 				    <p class="card-text"><i class="fa fa-user">&nbsp;</i>Admin</p>
 				    <p class="card-text">Last Login : xxxx-xx-xx</p>
 				    <a href="#" class="btn btn-primary"><i class="fa fa-edit">&nbsp;</i>Edit Profile</a>
@@ -86,7 +86,7 @@ if (!isset($_SESSION["userid"])) {
 						<div class="card-body">
 						<h4 class="card-title">Products</h4>
 						<p class="card-text">Here you can manage your prpducts and you add new products</p>
-						<a href="#" data-toggle="modal" data-target="#form" class="btn btn-primary">Add</a>
+						<a href="#" data-toggle="modal" data-target="#form_products" class="btn btn-primary">Add</a>
 						<a href="manage_product.php" class="btn btn-primary">Manage</a>
 					</div>
 				</div>
@@ -106,7 +106,7 @@ if (!isset($_SESSION["userid"])) {
 	 ?>
 	 <?php
 	//Products Form
-	include_once("./templates/product.php");
+	include_once("./templates/products.php");
 	 ?>
 
 
